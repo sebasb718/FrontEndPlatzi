@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+  </head>
+  <style>
+    /*Selector Universal*/
+    *{
+      margin: 0%;
+    }
+    /*Selector de tipo html*/
+    h1{
+      color: red;
+    }
+    /*Selector de clase*/
+    .clase{
+      font-size: 2em;
+    }
+    /*Selector de id*/
+    #id{
+      border-radius: 20px;
+    }
+    /*pseudo clase*/
+    p:nth-child(2n) {
+      color: blue;
+    }
+    /*pseudo elemento*/
+    p::first-letter {
+      color: red;
+      font-size: 20px;
+    }
+  </style>
+  <body>
+    <p>Gato 🐱</p>
+    <p>🦊 Zorro</p>
+    <p>🐶 Perro</p>
+    <p>🐯 Tigre</p>
+    <p>🐵 Mono</p>
+  </body>
+</html>
